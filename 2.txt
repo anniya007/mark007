@@ -1,0 +1,32 @@
+package pages;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+import pages.LoginPage;
+
+public class LoginPageFactory {
+	@Test
+	public void veryfylogin() throws InterruptedException
+	{
+		System.setProperty("webdriver.chrome.driver","C:\\Users\\shpalsan\\Desktop\\vnv\\selenium jars\\new chrome driver\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("file:///D:/ConferenceRegistartion.html#");
+		driver.manage().window().maximize();
+		
+		LoginPage login = new LoginPage(driver);
+		login.typeFirstName();
+		login.typeLastName();
+		login.typetxtEmail();
+		login.typetxtPhone();	
+		login.typeselect();
+		login.typetxtAddress();
+		login.typetxtAddress2();
+		login.typecity();
+		login.typestate();
+		login.typeconference();
+		login.typelink();
+	}
+	
+}

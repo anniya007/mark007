@@ -1,0 +1,14 @@
+1.	Launch the application browser
+2.	Open the url: http://demo.opencart.com/
+3.	Verify the title
+4.	Enter 'Mac' in 'Search' text box
+5.	Click on 'Search' button
+6.	Validate 'Search - Mac' title
+7.	Click on 'Search in product descriptions' check box
+8.	Click on 'Search' button
+9.	Verify text 'Products meeting the search criteria'
+10.	Go to dropdown 'Sort By' and select 'Model (A-z)'
+11.	Click on link 'iMac'
+12.	Validate text 'Brand: Apple'
+13.	Click on 'Add to Cart' button
+14.	Verify success message 'Success: You have added iMac to your shopping cart!'
